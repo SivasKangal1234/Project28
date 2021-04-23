@@ -89,11 +89,12 @@ function mouseDragged();
 Matter.body.setPosition(stoneObj.body, {x=mouseX, y= mouseY})
 
 //create mouseReleased function here
-
-
+function mouseReleased();
+Matter.body.setPosition(stoneObj.body, {x=mouseX, y= mouseY})
  
 //create keyPressed function here
-  
+function keyPressed();
+Matter.body.setPosition(stoneObj.body, {x=mouseX, y= mouseY})
 
 
   
